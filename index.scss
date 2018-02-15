@@ -1,0 +1,13 @@
+$unselect-color: gray;
+$select-color: beige;
+
+.accordion {
+  background: $unselect-color;
+  dd {
+    display: none;
+  }
+  .accordion--selected {
+    display: block;
+    background: $select-color;
+  }
+}
